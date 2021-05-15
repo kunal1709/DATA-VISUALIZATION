@@ -1,0 +1,103 @@
+{
+    "name": "GROUP 3",
+	"foreground": "#252423",
+	"foregroundNeutralSecondary": "#605E5C",
+	"foregroundNeutralTertiary": "#B3B0AD",
+	"background": "#FFFFFF",
+	"backgroundLight": "#F3F2F1",
+	"backgroundNeutral": "#C8C6C4",
+    "dataColors": [
+	"#CCCCCC",
+    	"#999999",
+	"#666666",
+	"#333333",
+	"#000000"
+    ],
+    "visualStyles":{
+      "*": {
+         "*": {
+            "*": [{
+                "wordWrap": true
+            }],
+            "categoryAxis": [
+			{
+		"position": "Right",
+		"labelPrecision": {
+          		"type": [
+           		 "numeric"
+         		 ],
+          		"displayName": [
+            		"none"
+         		 ],
+          		"description": [
+           		 "2"
+         		 ]
+      			}
+            	     }],
+	    "valueAxis": [
+		      {
+		"position": "Left",
+		"labelPrecision": {
+          		"type": [
+           		 "numeric"
+         		 ],
+          		"displayName": [
+            		"none"
+         		 ],
+          		"description": [
+           		 "2"
+         		 ]
+      			}
+            	    }],
+            "filterCard": [
+              {
+                "$id": "Applied",
+                "foregroundColor": {"solid": {"color": "#252423" } }
+              },
+              {
+                "$id":"Available",
+                "border": true
+              }
+            ]
+         }
+      },
+	"barChart": {
+         "*": {
+            "valueAxis": [{
+            "gridlinesShow":true
+             }]
+         }
+      },
+	  "histogram": {
+         "*": {
+            "valueAxis": [{
+            "binSize": 1,
+			"binCount": 5,
+			"startBinValue": 1
+             }]
+         }
+      }
+   },    
+ "textClasses": {
+	    "callout": {
+            "fontSize": 45,
+            "fontFace": "sans serif",
+            "color": "#92A1A5"
+        },
+        "title": {
+            "fontSize": 24,
+            "fontFace": "sans serif",
+			"alignment": "left"
+        },
+        "header": {
+            "fontSize": 18,
+            "fontFace": "sans serif",
+			"alignment": "left"
+
+        },
+       "label": {
+            "fontSize": 10,
+            "fontFace": "sans serif"
+        }
+    }
+}

@@ -1,0 +1,2259 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20204.21.0315.1000                               -->
+<workbook original-version='18.1' source-build='2020.4.3 (20204.21.0315.1000)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='AllChangeManagementData_SCRAMBLED Extract' inline='true' name='federated.1xfgvkt1ryu7ye1h990hj1vzrlns' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='AllChangeManagementData_SCRAMBLED' name='hyper.0x71ue008vgdau1834l3c08jvrtj'>
+            <connection authentication='auth-none' author-locale='en_US' class='hyper' dbname='A:/DATA VISUALIZATION/FinalProj/AllChangeManagementData_SCRAMBLED.hyper' default-settings='yes' port='0' server='' sslmode='' username='tableau_internal_user' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='hyper.0x71ue008vgdau1834l3c08jvrtj' name='Extract' table='[Extract].[Extract]' type='table' />
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='hyper.0x71ue008vgdau1834l3c08jvrtj' name='Extract' table='[Extract].[Extract]' type='table' />
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>Id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Id]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>Id</remote-alias>
+            <ordinal>0</ordinal>
+            <family>AllChangeManagementData_SCRAMBLED.csv</family>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>3200</approx-count>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Title</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Title]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>Title</remote-alias>
+            <ordinal>1</ordinal>
+            <family>AllChangeManagementData_SCRAMBLED.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1825</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Description</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Description]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>Description</remote-alias>
+            <ordinal>2</ordinal>
+            <family>AllChangeManagementData_SCRAMBLED.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Start</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[Start]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>Start</remote-alias>
+            <ordinal>3</ordinal>
+            <family>AllChangeManagementData_SCRAMBLED.csv</family>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <approx-count>97</approx-count>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>End</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[End]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>End</remote-alias>
+            <ordinal>4</ordinal>
+            <family>AllChangeManagementData_SCRAMBLED.csv</family>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <approx-count>119</approx-count>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TotalClientsImpacted</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[TotalClientsImpacted]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>TotalClientsImpacted</remote-alias>
+            <ordinal>5</ordinal>
+            <family>AllChangeManagementData_SCRAMBLED.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>9</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TotalCLients</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[TotalCLients]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>TotalCLients</remote-alias>
+            <ordinal>6</ordinal>
+            <family>AllChangeManagementData_SCRAMBLED.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>9</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TotalClientsRange</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[TotalClientsRange]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>TotalClientsRange</remote-alias>
+            <ordinal>7</ordinal>
+            <family>AllChangeManagementData_SCRAMBLED.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>9</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TotalClientsImpactedRange</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[TotalClientsImpactedRange]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>TotalClientsImpactedRange</remote-alias>
+            <ordinal>8</ordinal>
+            <family>AllChangeManagementData_SCRAMBLED.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>9</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WillIncurOutage</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[WillIncurOutage]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>WillIncurOutage</remote-alias>
+            <ordinal>9</ordinal>
+            <family>AllChangeManagementData_SCRAMBLED.csv</family>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>2</approx-count>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Implementor</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Implementor]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>Implementor</remote-alias>
+            <ordinal>10</ordinal>
+            <family>AllChangeManagementData_SCRAMBLED.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>98</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Requestor</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Requestor]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>Requestor</remote-alias>
+            <ordinal>11</ordinal>
+            <family>AllChangeManagementData_SCRAMBLED.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>146</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Department</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Department]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>Department</remote-alias>
+            <ordinal>12</ordinal>
+            <family>AllChangeManagementData_SCRAMBLED.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>262</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IsVotedOn</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[IsVotedOn]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>IsVotedOn</remote-alias>
+            <ordinal>13</ordinal>
+            <family>AllChangeManagementData_SCRAMBLED.csv</family>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>2</approx-count>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IsApproved</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[IsApproved]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>IsApproved</remote-alias>
+            <ordinal>14</ordinal>
+            <family>AllChangeManagementData_SCRAMBLED.csv</family>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>2</approx-count>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>VotedOn</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[VotedOn]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>VotedOn</remote-alias>
+            <ordinal>15</ordinal>
+            <family>AllChangeManagementData_SCRAMBLED.csv</family>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <approx-count>1031</approx-count>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RelatedToPreviousChange</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[RelatedToPreviousChange]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>RelatedToPreviousChange</remote-alias>
+            <ordinal>16</ordinal>
+            <family>AllChangeManagementData_SCRAMBLED.csv</family>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>2</approx-count>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RelatedToPreviousOutage</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[RelatedToPreviousOutage]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>RelatedToPreviousOutage</remote-alias>
+            <ordinal>17</ordinal>
+            <family>AllChangeManagementData_SCRAMBLED.csv</family>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>2</approx-count>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IncludedEnterpriseMonitoring</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[IncludedEnterpriseMonitoring]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>IncludedEnterpriseMonitoring</remote-alias>
+            <ordinal>18</ordinal>
+            <family>AllChangeManagementData_SCRAMBLED.csv</family>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>2</approx-count>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RelatedToEntMonitoring</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[RelatedToEntMonitoring]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>RelatedToEntMonitoring</remote-alias>
+            <ordinal>19</ordinal>
+            <family>AllChangeManagementData_SCRAMBLED.csv</family>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>2</approx-count>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OCCInstructions</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[OCCInstructions]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>OCCInstructions</remote-alias>
+            <ordinal>20</ordinal>
+            <family>AllChangeManagementData_SCRAMBLED.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>477</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IsDateFlexible</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[IsDateFlexible]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>IsDateFlexible</remote-alias>
+            <ordinal>21</ordinal>
+            <family>AllChangeManagementData_SCRAMBLED.csv</family>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>2</approx-count>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IfNotFlexibleWhy</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[IfNotFlexibleWhy]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>IfNotFlexibleWhy</remote-alias>
+            <ordinal>22</ordinal>
+            <family>AllChangeManagementData_SCRAMBLED.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>219</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IsPublicFriendly</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[IsPublicFriendly]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>IsPublicFriendly</remote-alias>
+            <ordinal>23</ordinal>
+            <family>AllChangeManagementData_SCRAMBLED.csv</family>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>2</approx-count>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PublicFriendlyTitle</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[PublicFriendlyTitle]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>PublicFriendlyTitle</remote-alias>
+            <ordinal>24</ordinal>
+            <family>AllChangeManagementData_SCRAMBLED.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>397</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PublicFriendlyDesc</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[PublicFriendlyDesc]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>PublicFriendlyDesc</remote-alias>
+            <ordinal>25</ordinal>
+            <family>AllChangeManagementData_SCRAMBLED.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>568</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>JustificationOfChange</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[JustificationOfChange]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>JustificationOfChange</remote-alias>
+            <ordinal>26</ordinal>
+            <family>AllChangeManagementData_SCRAMBLED.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1305</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OutcomeAndBenefitsOfChange</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[OutcomeAndBenefitsOfChange]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>OutcomeAndBenefitsOfChange</remote-alias>
+            <ordinal>27</ordinal>
+            <family>AllChangeManagementData_SCRAMBLED.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1169</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ConfigItem</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ConfigItem]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>ConfigItem</remote-alias>
+            <ordinal>28</ordinal>
+            <family>AllChangeManagementData_SCRAMBLED.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>710</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ServicesImpacted</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ServicesImpacted]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>ServicesImpacted</remote-alias>
+            <ordinal>29</ordinal>
+            <family>AllChangeManagementData_SCRAMBLED.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>801</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ClientsImpacted</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ClientsImpacted]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>ClientsImpacted</remote-alias>
+            <ordinal>30</ordinal>
+            <family>AllChangeManagementData_SCRAMBLED.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>897</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Testing</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Testing]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>Testing</remote-alias>
+            <ordinal>31</ordinal>
+            <family>AllChangeManagementData_SCRAMBLED.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>861</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>InstallationPlan</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[InstallationPlan]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>InstallationPlan</remote-alias>
+            <ordinal>32</ordinal>
+            <family>AllChangeManagementData_SCRAMBLED.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>910</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IPEndTimeAndBRPStartTime</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[IPEndTimeAndBRPStartTime]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>IPEndTimeAndBRPStartTime</remote-alias>
+            <ordinal>33</ordinal>
+            <family>AllChangeManagementData_SCRAMBLED.csv</family>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <approx-count>135</approx-count>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BackoutRemediationPlan</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[BackoutRemediationPlan]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>BackoutRemediationPlan</remote-alias>
+            <ordinal>34</ordinal>
+            <family>AllChangeManagementData_SCRAMBLED.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>854</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TestResultsOrSignOff</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[TestResultsOrSignOff]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>TestResultsOrSignOff</remote-alias>
+            <ordinal>35</ordinal>
+            <family>AllChangeManagementData_SCRAMBLED.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>5</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RiskEval_InstallationValue</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[RiskEval_InstallationValue]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>RiskEval_InstallationValue</remote-alias>
+            <ordinal>36</ordinal>
+            <family>AllChangeManagementData_SCRAMBLED.csv</family>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>4</approx-count>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RiskEval_BackoutValue</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[RiskEval_BackoutValue]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>RiskEval_BackoutValue</remote-alias>
+            <ordinal>37</ordinal>
+            <family>AllChangeManagementData_SCRAMBLED.csv</family>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>4</approx-count>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RiskEval_ScopeValue</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[RiskEval_ScopeValue]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>RiskEval_ScopeValue</remote-alias>
+            <ordinal>38</ordinal>
+            <family>AllChangeManagementData_SCRAMBLED.csv</family>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>4</approx-count>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RiskEval_FrequencyValue</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[RiskEval_FrequencyValue]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>RiskEval_FrequencyValue</remote-alias>
+            <ordinal>39</ordinal>
+            <family>AllChangeManagementData_SCRAMBLED.csv</family>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>4</approx-count>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RiskEval_ReliabilityValue</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[RiskEval_ReliabilityValue]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>RiskEval_ReliabilityValue</remote-alias>
+            <ordinal>40</ordinal>
+            <family>AllChangeManagementData_SCRAMBLED.csv</family>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>4</approx-count>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RiskEval_BusinessImpactValue</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[RiskEval_BusinessImpactValue]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>RiskEval_BusinessImpactValue</remote-alias>
+            <ordinal>41</ordinal>
+            <family>AllChangeManagementData_SCRAMBLED.csv</family>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>4</approx-count>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RiskEval_RiskValue</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[RiskEval_RiskValue]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>RiskEval_RiskValue</remote-alias>
+            <ordinal>42</ordinal>
+            <family>AllChangeManagementData_SCRAMBLED.csv</family>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>4</approx-count>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RiskEval_Result</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[RiskEval_Result]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>RiskEval_Result</remote-alias>
+            <ordinal>43</ordinal>
+            <family>AllChangeManagementData_SCRAMBLED.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>16</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SubmittedOn</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[SubmittedOn]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>SubmittedOn</remote-alias>
+            <ordinal>44</ordinal>
+            <family>AllChangeManagementData_SCRAMBLED.csv</family>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <approx-count>1573</approx-count>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SubmittedBy</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[SubmittedBy]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>SubmittedBy</remote-alias>
+            <ordinal>45</ordinal>
+            <family>AllChangeManagementData_SCRAMBLED.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>85</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IRCBool</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[IRCBool]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>IRCBool</remote-alias>
+            <ordinal>46</ordinal>
+            <family>AllChangeManagementData_SCRAMBLED.csv</family>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>2</approx-count>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HDKBool</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[HDKBool]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>HDKBool</remote-alias>
+            <ordinal>47</ordinal>
+            <family>AllChangeManagementData_SCRAMBLED.csv</family>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>2</approx-count>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DRPBool</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[DRPBool]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>DRPBool</remote-alias>
+            <ordinal>48</ordinal>
+            <family>AllChangeManagementData_SCRAMBLED.csv</family>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>2</approx-count>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IfOutagePleaseExplain</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[IfOutagePleaseExplain]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>IfOutagePleaseExplain</remote-alias>
+            <ordinal>49</ordinal>
+            <family>AllChangeManagementData_SCRAMBLED.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>223</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Project</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Project]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>Project</remote-alias>
+            <ordinal>50</ordinal>
+            <family>AllChangeManagementData_SCRAMBLED.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>739</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Category</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Category]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>Category</remote-alias>
+            <ordinal>51</ordinal>
+            <family>AllChangeManagementData_SCRAMBLED.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>22</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PreviousChangeExplain</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[PreviousChangeExplain]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>PreviousChangeExplain</remote-alias>
+            <ordinal>52</ordinal>
+            <family>AllChangeManagementData_SCRAMBLED.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>107</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PreviousOutageExplain</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[PreviousOutageExplain]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>PreviousOutageExplain</remote-alias>
+            <ordinal>53</ordinal>
+            <family>AllChangeManagementData_SCRAMBLED.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>30</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TypeOfChange</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[TypeOfChange]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>TypeOfChange</remote-alias>
+            <ordinal>54</ordinal>
+            <family>AllChangeManagementData_SCRAMBLED.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>6</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SubmittedLate</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SubmittedLate]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>SubmittedLate</remote-alias>
+            <ordinal>55</ordinal>
+            <family>AllChangeManagementData_SCRAMBLED.csv</family>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>2</approx-count>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ReportingStatus</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ReportingStatus]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>ReportingStatus</remote-alias>
+            <ordinal>56</ordinal>
+            <family>AllChangeManagementData_SCRAMBLED.csv</family>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>1</approx-count>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>EmergencyManagerApproved</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[EmergencyManagerApproved]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>EmergencyManagerApproved</remote-alias>
+            <ordinal>57</ordinal>
+            <family>AllChangeManagementData_SCRAMBLED.csv</family>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>2</approx-count>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NoOtherChangesAllowed</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[NoOtherChangesAllowed]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>NoOtherChangesAllowed</remote-alias>
+            <ordinal>58</ordinal>
+            <family>AllChangeManagementData_SCRAMBLED.csv</family>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>2</approx-count>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LastEditedBy</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[LastEditedBy]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>LastEditedBy</remote-alias>
+            <ordinal>59</ordinal>
+            <family>AllChangeManagementData_SCRAMBLED.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>88</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OtherImplementors</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[OtherImplementors]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>OtherImplementors</remote-alias>
+            <ordinal>60</ordinal>
+            <family>AllChangeManagementData_SCRAMBLED.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>158</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CABAdminSpecialApproval</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[CABAdminSpecialApproval]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>CABAdminSpecialApproval</remote-alias>
+            <ordinal>61</ordinal>
+            <family>AllChangeManagementData_SCRAMBLED.csv</family>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>1</approx-count>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CABAdmin</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[CABAdmin]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>CABAdmin</remote-alias>
+            <ordinal>62</ordinal>
+            <family>AllChangeManagementData_SCRAMBLED.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>7</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WasApprovedByCABAdmin</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[WasApprovedByCABAdmin]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>WasApprovedByCABAdmin</remote-alias>
+            <ordinal>63</ordinal>
+            <family>AllChangeManagementData_SCRAMBLED.csv</family>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>2</approx-count>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>StandardTemplate</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[StandardTemplate]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>StandardTemplate</remote-alias>
+            <ordinal>64</ordinal>
+            <family>AllChangeManagementData_SCRAMBLED.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>34</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WasEditedAfterApproval</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[WasEditedAfterApproval]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>WasEditedAfterApproval</remote-alias>
+            <ordinal>65</ordinal>
+            <family>AllChangeManagementData_SCRAMBLED.csv</family>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>2</approx-count>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HasWorkflow</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[HasWorkflow]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>HasWorkflow</remote-alias>
+            <ordinal>66</ordinal>
+            <family>AllChangeManagementData_SCRAMBLED.csv</family>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <approx-count>2</approx-count>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WorkflowApprovedBy</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[WorkflowApprovedBy]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>WorkflowApprovedBy</remote-alias>
+            <ordinal>67</ordinal>
+            <family>AllChangeManagementData_SCRAMBLED.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>27</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WorkflowApprovedOn</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[WorkflowApprovedOn]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>WorkflowApprovedOn</remote-alias>
+            <ordinal>68</ordinal>
+            <family>AllChangeManagementData_SCRAMBLED.csv</family>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <approx-count>1075</approx-count>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WorkflowStep</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[WorkflowStep]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>WorkflowStep</remote-alias>
+            <ordinal>69</ordinal>
+            <family>AllChangeManagementData_SCRAMBLED.csv</family>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>5</approx-count>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DB_CreatedDate</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[DB_CreatedDate]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>DB_CreatedDate</remote-alias>
+            <ordinal>70</ordinal>
+            <family>AllChangeManagementData_SCRAMBLED.csv</family>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <approx-count>421</approx-count>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DB_LastModifiedDate</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[DB_LastModifiedDate]</local-name>
+            <parent-name>[Extract]</parent-name>
+            <remote-alias>DB_LastModifiedDate</remote-alias>
+            <ordinal>71</ordinal>
+            <family>AllChangeManagementData_SCRAMBLED.csv</family>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <approx-count>289</approx-count>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Backout Remediation Plan' datatype='string' name='[BackoutRemediationPlan]' role='dimension' type='nominal' />
+      <column caption='CAB Admin Special Approval' datatype='integer' name='[CABAdminSpecialApproval]' role='measure' type='quantitative' />
+      <column caption='CAB Admin' datatype='string' name='[CABAdmin]' role='dimension' type='nominal' />
+      <column caption='Clients Impacted' datatype='string' name='[ClientsImpacted]' role='dimension' type='nominal' />
+      <column caption='Config Item' datatype='string' name='[ConfigItem]' role='dimension' type='nominal' />
+      <column caption='DB CreatedDate' datatype='datetime' name='[DB_CreatedDate]' role='dimension' type='ordinal' />
+      <column caption='DB LastModifiedDate' datatype='datetime' name='[DB_LastModifiedDate]' role='dimension' type='ordinal' />
+      <column caption='DRP Bool' datatype='integer' name='[DRPBool]' role='measure' type='quantitative' />
+      <column caption='Emergency Manager Approved' datatype='integer' name='[EmergencyManagerApproved]' role='measure' type='quantitative' />
+      <column caption='HDK Bool' datatype='integer' name='[HDKBool]' role='measure' type='quantitative' />
+      <column caption='Has Workflow' datatype='integer' name='[HasWorkflow]' role='measure' type='quantitative' />
+      <column caption='IP End Time And BRP Start Time' datatype='datetime' name='[IPEndTimeAndBRPStartTime]' role='dimension' type='ordinal' />
+      <column caption='IRC Bool' datatype='integer' name='[IRCBool]' role='measure' type='quantitative' />
+      <column datatype='integer' name='[Id]' role='dimension' type='ordinal' />
+      <column caption='If Not Flexible Why' datatype='string' name='[IfNotFlexibleWhy]' role='dimension' type='nominal' />
+      <column caption='If Outage Please Explain' datatype='string' name='[IfOutagePleaseExplain]' role='dimension' type='nominal' />
+      <column caption='Included Enterprise Monitoring' datatype='integer' name='[IncludedEnterpriseMonitoring]' role='measure' type='quantitative' />
+      <column caption='Installation Plan' datatype='string' name='[InstallationPlan]' role='dimension' type='nominal' />
+      <column caption='Is Approved' datatype='integer' name='[IsApproved]' role='measure' type='quantitative' />
+      <column caption='Is Date Flexible' datatype='integer' name='[IsDateFlexible]' role='measure' type='quantitative' />
+      <column caption='Is Public Friendly' datatype='integer' name='[IsPublicFriendly]' role='measure' type='quantitative' />
+      <column caption='Is Voted On' datatype='integer' name='[IsVotedOn]' role='measure' type='quantitative' />
+      <column caption='Justification Of Change' datatype='string' name='[JustificationOfChange]' role='dimension' type='nominal' />
+      <column caption='Last Edited By' datatype='string' name='[LastEditedBy]' role='dimension' type='nominal' />
+      <column caption='No Other Changes Allowed' datatype='integer' name='[NoOtherChangesAllowed]' role='measure' type='quantitative' />
+      <column caption='OCC Instructions' datatype='string' name='[OCCInstructions]' role='dimension' type='nominal' />
+      <column caption='Other Implementors' datatype='string' name='[OtherImplementors]' role='dimension' type='nominal' />
+      <column caption='Outcome And Benefits Of Change' datatype='string' name='[OutcomeAndBenefitsOfChange]' role='dimension' type='nominal' />
+      <column caption='Previous Change Explain' datatype='string' name='[PreviousChangeExplain]' role='dimension' type='nominal' />
+      <column caption='Previous Outage Explain' datatype='string' name='[PreviousOutageExplain]' role='dimension' type='nominal' />
+      <column caption='Public Friendly Desc' datatype='string' name='[PublicFriendlyDesc]' role='dimension' type='nominal' />
+      <column caption='Public Friendly Title' datatype='string' name='[PublicFriendlyTitle]' role='dimension' type='nominal' />
+      <column caption='Related To Ent Monitoring' datatype='integer' name='[RelatedToEntMonitoring]' role='measure' type='quantitative' />
+      <column caption='Related To Previous Change' datatype='integer' name='[RelatedToPreviousChange]' role='measure' type='quantitative' />
+      <column caption='Related To Previous Outage' datatype='integer' name='[RelatedToPreviousOutage]' role='measure' type='quantitative' />
+      <column caption='Reporting Status' datatype='integer' name='[ReportingStatus]' role='measure' type='quantitative' />
+      <column caption='RiskEval BackoutValue' datatype='integer' name='[RiskEval_BackoutValue]' role='measure' type='quantitative' />
+      <column caption='RiskEval BusinessImpactValue' datatype='integer' name='[RiskEval_BusinessImpactValue]' role='measure' type='quantitative' />
+      <column caption='RiskEval FrequencyValue' datatype='integer' name='[RiskEval_FrequencyValue]' role='measure' type='quantitative' />
+      <column caption='RiskEval InstallationValue' datatype='integer' name='[RiskEval_InstallationValue]' role='measure' type='quantitative' />
+      <column caption='RiskEval ReliabilityValue' datatype='integer' name='[RiskEval_ReliabilityValue]' role='measure' type='quantitative' />
+      <column caption='RiskEval Result' datatype='string' name='[RiskEval_Result]' role='dimension' type='nominal' />
+      <column caption='RiskEval RiskValue' datatype='integer' name='[RiskEval_RiskValue]' role='measure' type='quantitative' />
+      <column caption='RiskEval ScopeValue' datatype='integer' name='[RiskEval_ScopeValue]' role='measure' type='quantitative' />
+      <column caption='Services Impacted' datatype='string' name='[ServicesImpacted]' role='dimension' type='nominal' />
+      <column caption='Standard Template' datatype='string' name='[StandardTemplate]' role='dimension' type='nominal' />
+      <column caption='Submitted By' datatype='string' name='[SubmittedBy]' role='dimension' type='nominal' />
+      <column caption='Submitted Late' datatype='integer' name='[SubmittedLate]' role='measure' type='quantitative' />
+      <column caption='Submitted On' datatype='datetime' name='[SubmittedOn]' role='dimension' type='ordinal' />
+      <column caption='Test Results Or Sign Off' datatype='string' name='[TestResultsOrSignOff]' role='dimension' type='nominal' />
+      <column caption='Total C Lients' datatype='string' name='[TotalCLients]' role='dimension' type='nominal' />
+      <column caption='Total Clients Impacted Range' datatype='string' name='[TotalClientsImpactedRange]' role='dimension' type='nominal' />
+      <column caption='Total Clients Impacted' datatype='string' name='[TotalClientsImpacted]' role='dimension' type='nominal' />
+      <column caption='Total Clients Range' datatype='string' name='[TotalClientsRange]' role='dimension' type='nominal' />
+      <column caption='Type Of Change' datatype='string' name='[TypeOfChange]' role='dimension' type='nominal' />
+      <column caption='Voted On' datatype='datetime' name='[VotedOn]' role='dimension' type='ordinal' />
+      <column caption='Was Approved By CAB Admin' datatype='integer' name='[WasApprovedByCABAdmin]' role='measure' type='quantitative' />
+      <column caption='Was Edited After Approval' datatype='integer' name='[WasEditedAfterApproval]' role='measure' type='quantitative' />
+      <column caption='Will Incur Outage' datatype='integer' name='[WillIncurOutage]' role='measure' type='quantitative' />
+      <column caption='Workflow Approved By' datatype='string' name='[WorkflowApprovedBy]' role='dimension' type='nominal' />
+      <column caption='Workflow Approved On' datatype='datetime' name='[WorkflowApprovedOn]' role='dimension' type='ordinal' />
+      <column caption='Workflow Step' datatype='string' name='[WorkflowStep]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Extract' datatype='table' name='[__tableau_internal_object_id__].[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]' role='measure' type='quantitative' />
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='A:/DATA VISUALIZATION/FinalProj/AllChangeManagementData_SCRAMBLED Extract1.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='04/17/2021 04:35:02 PM' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <refresh>
+            <refresh-event add-from-file-path='AllChangeManagementData_SCRAMBLED Extract' increment-value='%null%' refresh-type='create' rows-inserted='3200' timestamp-start='2021-04-17 16:35:02.869' />
+          </refresh>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Id</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Id</remote-alias>
+              <ordinal>0</ordinal>
+              <family>AllChangeManagementData_SCRAMBLED.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3200</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Title</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Title]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Title</remote-alias>
+              <ordinal>1</ordinal>
+              <family>AllChangeManagementData_SCRAMBLED.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1825</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Description</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Description]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Description</remote-alias>
+              <ordinal>2</ordinal>
+              <family>AllChangeManagementData_SCRAMBLED.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Start</remote-name>
+              <remote-type>135</remote-type>
+              <local-name>[Start]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Start</remote-alias>
+              <ordinal>3</ordinal>
+              <family>AllChangeManagementData_SCRAMBLED.csv</family>
+              <local-type>datetime</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>97</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>End</remote-name>
+              <remote-type>135</remote-type>
+              <local-name>[End]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>End</remote-alias>
+              <ordinal>4</ordinal>
+              <family>AllChangeManagementData_SCRAMBLED.csv</family>
+              <local-type>datetime</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>119</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>TotalClientsImpacted</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[TotalClientsImpacted]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>TotalClientsImpacted</remote-alias>
+              <ordinal>5</ordinal>
+              <family>AllChangeManagementData_SCRAMBLED.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>9</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>TotalCLients</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[TotalCLients]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>TotalCLients</remote-alias>
+              <ordinal>6</ordinal>
+              <family>AllChangeManagementData_SCRAMBLED.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>9</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>TotalClientsRange</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[TotalClientsRange]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>TotalClientsRange</remote-alias>
+              <ordinal>7</ordinal>
+              <family>AllChangeManagementData_SCRAMBLED.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>9</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>TotalClientsImpactedRange</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[TotalClientsImpactedRange]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>TotalClientsImpactedRange</remote-alias>
+              <ordinal>8</ordinal>
+              <family>AllChangeManagementData_SCRAMBLED.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>9</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>WillIncurOutage</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[WillIncurOutage]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>WillIncurOutage</remote-alias>
+              <ordinal>9</ordinal>
+              <family>AllChangeManagementData_SCRAMBLED.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Implementor</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Implementor]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Implementor</remote-alias>
+              <ordinal>10</ordinal>
+              <family>AllChangeManagementData_SCRAMBLED.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>98</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Requestor</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Requestor]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Requestor</remote-alias>
+              <ordinal>11</ordinal>
+              <family>AllChangeManagementData_SCRAMBLED.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>146</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Department</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Department]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Department</remote-alias>
+              <ordinal>12</ordinal>
+              <family>AllChangeManagementData_SCRAMBLED.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>262</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>IsVotedOn</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[IsVotedOn]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>IsVotedOn</remote-alias>
+              <ordinal>13</ordinal>
+              <family>AllChangeManagementData_SCRAMBLED.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>IsApproved</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[IsApproved]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>IsApproved</remote-alias>
+              <ordinal>14</ordinal>
+              <family>AllChangeManagementData_SCRAMBLED.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>VotedOn</remote-name>
+              <remote-type>135</remote-type>
+              <local-name>[VotedOn]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>VotedOn</remote-alias>
+              <ordinal>15</ordinal>
+              <family>AllChangeManagementData_SCRAMBLED.csv</family>
+              <local-type>datetime</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>1031</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>RelatedToPreviousChange</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[RelatedToPreviousChange]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>RelatedToPreviousChange</remote-alias>
+              <ordinal>16</ordinal>
+              <family>AllChangeManagementData_SCRAMBLED.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>RelatedToPreviousOutage</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[RelatedToPreviousOutage]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>RelatedToPreviousOutage</remote-alias>
+              <ordinal>17</ordinal>
+              <family>AllChangeManagementData_SCRAMBLED.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>IncludedEnterpriseMonitoring</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[IncludedEnterpriseMonitoring]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>IncludedEnterpriseMonitoring</remote-alias>
+              <ordinal>18</ordinal>
+              <family>AllChangeManagementData_SCRAMBLED.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>RelatedToEntMonitoring</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[RelatedToEntMonitoring]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>RelatedToEntMonitoring</remote-alias>
+              <ordinal>19</ordinal>
+              <family>AllChangeManagementData_SCRAMBLED.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>OCCInstructions</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[OCCInstructions]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>OCCInstructions</remote-alias>
+              <ordinal>20</ordinal>
+              <family>AllChangeManagementData_SCRAMBLED.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>477</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>IsDateFlexible</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[IsDateFlexible]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>IsDateFlexible</remote-alias>
+              <ordinal>21</ordinal>
+              <family>AllChangeManagementData_SCRAMBLED.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>IfNotFlexibleWhy</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[IfNotFlexibleWhy]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>IfNotFlexibleWhy</remote-alias>
+              <ordinal>22</ordinal>
+              <family>AllChangeManagementData_SCRAMBLED.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>219</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>IsPublicFriendly</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[IsPublicFriendly]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>IsPublicFriendly</remote-alias>
+              <ordinal>23</ordinal>
+              <family>AllChangeManagementData_SCRAMBLED.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PublicFriendlyTitle</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[PublicFriendlyTitle]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PublicFriendlyTitle</remote-alias>
+              <ordinal>24</ordinal>
+              <family>AllChangeManagementData_SCRAMBLED.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>397</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PublicFriendlyDesc</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[PublicFriendlyDesc]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PublicFriendlyDesc</remote-alias>
+              <ordinal>25</ordinal>
+              <family>AllChangeManagementData_SCRAMBLED.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>568</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>JustificationOfChange</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[JustificationOfChange]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>JustificationOfChange</remote-alias>
+              <ordinal>26</ordinal>
+              <family>AllChangeManagementData_SCRAMBLED.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1305</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>OutcomeAndBenefitsOfChange</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[OutcomeAndBenefitsOfChange]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>OutcomeAndBenefitsOfChange</remote-alias>
+              <ordinal>27</ordinal>
+              <family>AllChangeManagementData_SCRAMBLED.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1169</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ConfigItem</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[ConfigItem]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ConfigItem</remote-alias>
+              <ordinal>28</ordinal>
+              <family>AllChangeManagementData_SCRAMBLED.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>710</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ServicesImpacted</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[ServicesImpacted]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ServicesImpacted</remote-alias>
+              <ordinal>29</ordinal>
+              <family>AllChangeManagementData_SCRAMBLED.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>801</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ClientsImpacted</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[ClientsImpacted]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ClientsImpacted</remote-alias>
+              <ordinal>30</ordinal>
+              <family>AllChangeManagementData_SCRAMBLED.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>897</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Testing</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Testing]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Testing</remote-alias>
+              <ordinal>31</ordinal>
+              <family>AllChangeManagementData_SCRAMBLED.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>861</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>InstallationPlan</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[InstallationPlan]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>InstallationPlan</remote-alias>
+              <ordinal>32</ordinal>
+              <family>AllChangeManagementData_SCRAMBLED.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>910</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>IPEndTimeAndBRPStartTime</remote-name>
+              <remote-type>135</remote-type>
+              <local-name>[IPEndTimeAndBRPStartTime]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>IPEndTimeAndBRPStartTime</remote-alias>
+              <ordinal>33</ordinal>
+              <family>AllChangeManagementData_SCRAMBLED.csv</family>
+              <local-type>datetime</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>135</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>BackoutRemediationPlan</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[BackoutRemediationPlan]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>BackoutRemediationPlan</remote-alias>
+              <ordinal>34</ordinal>
+              <family>AllChangeManagementData_SCRAMBLED.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>854</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>TestResultsOrSignOff</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[TestResultsOrSignOff]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>TestResultsOrSignOff</remote-alias>
+              <ordinal>35</ordinal>
+              <family>AllChangeManagementData_SCRAMBLED.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>RiskEval_InstallationValue</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[RiskEval_InstallationValue]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>RiskEval_InstallationValue</remote-alias>
+              <ordinal>36</ordinal>
+              <family>AllChangeManagementData_SCRAMBLED.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>RiskEval_BackoutValue</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[RiskEval_BackoutValue]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>RiskEval_BackoutValue</remote-alias>
+              <ordinal>37</ordinal>
+              <family>AllChangeManagementData_SCRAMBLED.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>RiskEval_ScopeValue</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[RiskEval_ScopeValue]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>RiskEval_ScopeValue</remote-alias>
+              <ordinal>38</ordinal>
+              <family>AllChangeManagementData_SCRAMBLED.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>RiskEval_FrequencyValue</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[RiskEval_FrequencyValue]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>RiskEval_FrequencyValue</remote-alias>
+              <ordinal>39</ordinal>
+              <family>AllChangeManagementData_SCRAMBLED.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>RiskEval_ReliabilityValue</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[RiskEval_ReliabilityValue]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>RiskEval_ReliabilityValue</remote-alias>
+              <ordinal>40</ordinal>
+              <family>AllChangeManagementData_SCRAMBLED.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>RiskEval_BusinessImpactValue</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[RiskEval_BusinessImpactValue]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>RiskEval_BusinessImpactValue</remote-alias>
+              <ordinal>41</ordinal>
+              <family>AllChangeManagementData_SCRAMBLED.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>RiskEval_RiskValue</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[RiskEval_RiskValue]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>RiskEval_RiskValue</remote-alias>
+              <ordinal>42</ordinal>
+              <family>AllChangeManagementData_SCRAMBLED.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>RiskEval_Result</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[RiskEval_Result]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>RiskEval_Result</remote-alias>
+              <ordinal>43</ordinal>
+              <family>AllChangeManagementData_SCRAMBLED.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>16</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>SubmittedOn</remote-name>
+              <remote-type>135</remote-type>
+              <local-name>[SubmittedOn]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>SubmittedOn</remote-alias>
+              <ordinal>44</ordinal>
+              <family>AllChangeManagementData_SCRAMBLED.csv</family>
+              <local-type>datetime</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>1573</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>SubmittedBy</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[SubmittedBy]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>SubmittedBy</remote-alias>
+              <ordinal>45</ordinal>
+              <family>AllChangeManagementData_SCRAMBLED.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>85</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>IRCBool</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[IRCBool]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>IRCBool</remote-alias>
+              <ordinal>46</ordinal>
+              <family>AllChangeManagementData_SCRAMBLED.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>HDKBool</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[HDKBool]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>HDKBool</remote-alias>
+              <ordinal>47</ordinal>
+              <family>AllChangeManagementData_SCRAMBLED.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>DRPBool</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[DRPBool]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>DRPBool</remote-alias>
+              <ordinal>48</ordinal>
+              <family>AllChangeManagementData_SCRAMBLED.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>IfOutagePleaseExplain</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[IfOutagePleaseExplain]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>IfOutagePleaseExplain</remote-alias>
+              <ordinal>49</ordinal>
+              <family>AllChangeManagementData_SCRAMBLED.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>223</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Project</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Project]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Project</remote-alias>
+              <ordinal>50</ordinal>
+              <family>AllChangeManagementData_SCRAMBLED.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>739</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Category</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Category]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Category</remote-alias>
+              <ordinal>51</ordinal>
+              <family>AllChangeManagementData_SCRAMBLED.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>22</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PreviousChangeExplain</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[PreviousChangeExplain]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PreviousChangeExplain</remote-alias>
+              <ordinal>52</ordinal>
+              <family>AllChangeManagementData_SCRAMBLED.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>107</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>PreviousOutageExplain</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[PreviousOutageExplain]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>PreviousOutageExplain</remote-alias>
+              <ordinal>53</ordinal>
+              <family>AllChangeManagementData_SCRAMBLED.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>30</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>TypeOfChange</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[TypeOfChange]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>TypeOfChange</remote-alias>
+              <ordinal>54</ordinal>
+              <family>AllChangeManagementData_SCRAMBLED.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>SubmittedLate</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[SubmittedLate]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>SubmittedLate</remote-alias>
+              <ordinal>55</ordinal>
+              <family>AllChangeManagementData_SCRAMBLED.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ReportingStatus</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[ReportingStatus]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ReportingStatus</remote-alias>
+              <ordinal>56</ordinal>
+              <family>AllChangeManagementData_SCRAMBLED.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>EmergencyManagerApproved</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[EmergencyManagerApproved]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>EmergencyManagerApproved</remote-alias>
+              <ordinal>57</ordinal>
+              <family>AllChangeManagementData_SCRAMBLED.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>NoOtherChangesAllowed</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[NoOtherChangesAllowed]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>NoOtherChangesAllowed</remote-alias>
+              <ordinal>58</ordinal>
+              <family>AllChangeManagementData_SCRAMBLED.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>LastEditedBy</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[LastEditedBy]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>LastEditedBy</remote-alias>
+              <ordinal>59</ordinal>
+              <family>AllChangeManagementData_SCRAMBLED.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>88</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>OtherImplementors</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[OtherImplementors]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>OtherImplementors</remote-alias>
+              <ordinal>60</ordinal>
+              <family>AllChangeManagementData_SCRAMBLED.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>158</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>CABAdminSpecialApproval</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[CABAdminSpecialApproval]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>CABAdminSpecialApproval</remote-alias>
+              <ordinal>61</ordinal>
+              <family>AllChangeManagementData_SCRAMBLED.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>CABAdmin</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[CABAdmin]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>CABAdmin</remote-alias>
+              <ordinal>62</ordinal>
+              <family>AllChangeManagementData_SCRAMBLED.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>WasApprovedByCABAdmin</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[WasApprovedByCABAdmin]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>WasApprovedByCABAdmin</remote-alias>
+              <ordinal>63</ordinal>
+              <family>AllChangeManagementData_SCRAMBLED.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>StandardTemplate</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[StandardTemplate]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>StandardTemplate</remote-alias>
+              <ordinal>64</ordinal>
+              <family>AllChangeManagementData_SCRAMBLED.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>34</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>WasEditedAfterApproval</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[WasEditedAfterApproval]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>WasEditedAfterApproval</remote-alias>
+              <ordinal>65</ordinal>
+              <family>AllChangeManagementData_SCRAMBLED.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>HasWorkflow</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[HasWorkflow]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>HasWorkflow</remote-alias>
+              <ordinal>66</ordinal>
+              <family>AllChangeManagementData_SCRAMBLED.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>WorkflowApprovedBy</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[WorkflowApprovedBy]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>WorkflowApprovedBy</remote-alias>
+              <ordinal>67</ordinal>
+              <family>AllChangeManagementData_SCRAMBLED.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>27</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>WorkflowApprovedOn</remote-name>
+              <remote-type>135</remote-type>
+              <local-name>[WorkflowApprovedOn]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>WorkflowApprovedOn</remote-alias>
+              <ordinal>68</ordinal>
+              <family>AllChangeManagementData_SCRAMBLED.csv</family>
+              <local-type>datetime</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>1075</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>WorkflowStep</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[WorkflowStep]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>WorkflowStep</remote-alias>
+              <ordinal>69</ordinal>
+              <family>AllChangeManagementData_SCRAMBLED.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>DB_CreatedDate</remote-name>
+              <remote-type>135</remote-type>
+              <local-name>[DB_CreatedDate]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>DB_CreatedDate</remote-alias>
+              <ordinal>70</ordinal>
+              <family>AllChangeManagementData_SCRAMBLED.csv</family>
+              <local-type>datetime</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>421</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>DB_LastModifiedDate</remote-name>
+              <remote-type>135</remote-type>
+              <local-name>[DB_LastModifiedDate]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>DB_LastModifiedDate</remote-alias>
+              <ordinal>71</ordinal>
+              <family>AllChangeManagementData_SCRAMBLED.csv</family>
+              <local-type>datetime</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>289</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Extract' id='Extract (Extract.Extract)_6283B6FE07B340CA9703539D7FC01AD0'>
+            <properties context=''>
+              <relation connection='hyper.0x71ue008vgdau1834l3c08jvrtj' name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{2E9B2238-326E-4980-AC94-9A3885B36348}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='30'>
+            <card type='columns' />
+          </strip>
+          <strip size='30'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{365776E7-EE77-472D-81CB-7C391808143B}' />
+    </window>
+  </windows>
+</workbook>
